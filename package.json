@@ -1,0 +1,16 @@
+{
+  "name": "yantra-auth-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "mcp": "node mcp-server.mjs"
+  },
+  "dependencies": {
+    "jose": "^6.1.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@yantra-app/cloud-auth-js": "file:../yantra-auth/cloud-auth-js",
+    "express": "^4.21.2",
+    "zod": "^3.25.76"
+  }
+}
